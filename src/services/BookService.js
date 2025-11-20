@@ -1,4 +1,4 @@
-const bookRepo = require('../repositories/BookRepo');
+const bookRepo = require('../repositories/bookRepo');
 const { validateBook } = require('../utils/validators');
 const { NotFoundError } = require('../utils/errors');
 
